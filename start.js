@@ -18,6 +18,7 @@ app.get('/contact', (req,res) => {
     res.sendFile(path.join(__dirname,'./public/html/contacto.html'));
  });
 
+
 //listening the server
 app.listen(app.get('port'), () => {
     //console.log(`Server listening on port ${PORT}`); 
