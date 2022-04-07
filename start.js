@@ -11,13 +11,12 @@ app.use(express.static('public')); //<- la carpeta 'public' debe estar en el dir
 app.get('/', (req,res) => {
     //res.send('Hello world' );
     //console.log(__dirname);
-    res.sendFile(path.join(__dirname,'./public/views/index.html'));
+    res.sendFile(path.join(__dirname,'./public/html/index.html'));
 });
 
 app.get('/contact', (req,res) => {
     res.sendFile(path.join(__dirname,'./public/html/contacto.html'));
  });
-
 
 //listening the server
 app.listen(app.get('port'), () => {

@@ -10,7 +10,15 @@
   "author": "Sergio del Pino",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.2",
+    "express": "^4.17.3",
     "multer": "^1.4.4"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/INECOsergiodelpino/node_firstWebApp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/INECOsergiodelpino/node_firstWebApp/issues"
+  },
+  "homepage": "https://github.com/INECOsergiodelpino/node_firstWebApp#readme"
 }
